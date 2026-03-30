@@ -1,0 +1,17 @@
+node_modules
+.env
+dist
+build
+coverage
+.DS_Store
+
+# NestJS
+backend/node_modules
+backend/dist
+
+# React
+frontend/node_modules
+frontend/dist
+
+# Logs
+*.log
