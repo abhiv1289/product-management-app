@@ -17,10 +17,10 @@ export class Product {
     @Column()
     quantity: number;
 
-    @Column('decimal')
+    @Column('decimal', {nullable: true, default: 0})
     unitPrice: number;
 
-    @Column('decimal')
+    @Column('decimal', {nullable: true, default: 0})
     totalPrice: number;
 
     @Column('decimal', {nullable: true, default: 0})
